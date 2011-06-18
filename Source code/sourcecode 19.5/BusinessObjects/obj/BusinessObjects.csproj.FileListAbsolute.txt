@@ -1,0 +1,5 @@
+F:\net project\SoftStore\BusinessObjects\bin\Debug\BusinessObjects.dll
+F:\net project\SoftStore\BusinessObjects\bin\Debug\BusinessObjects.pdb
+F:\net project\SoftStore\BusinessObjects\obj\Debug\ResolveAssemblyReference.cache
+F:\net project\SoftStore\BusinessObjects\obj\Debug\BusinessObjects.dll
+F:\net project\SoftStore\BusinessObjects\obj\Debug\BusinessObjects.pdb

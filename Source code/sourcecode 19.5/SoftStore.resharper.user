@@ -1,0 +1,418 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@System.Int64">
+      <Item value="Parse" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Utilities.FriendlyURL">
+      <Item value="ConvertUrlFriendlyNoExt" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Utilities.SqlObject">
+      <Item value="getFloat" priority="0" />
+      <Item value="getInt32" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.Products">
+      <Item value="GetListProducts" priority="0" />
+      <Item value="GetListProductsByCatID" priority="3" />
+      <Item value="GetByID" priority="0" />
+      <Item value="GetListSearch" priority="0" />
+      <Item value="GetTopProductsByCatID" priority="0" />
+      <Item value="GetListProductsPublished" priority="0" />
+      <Item value="CheckExistsProductID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.ProductSubCategoryInfo">
+      <Item value="CategoryID" priority="0" />
+      <Item value="SubCategoryID" priority="0" />
+      <Item value="SubCategoryName" priority="0" />
+      <Item value="GroupID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.ProductSupplier">
+      <Item value="GetByID" priority="0" />
+      <Item value="GetList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.Package">
+      <Item value="GetByID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CKEditor.NET.CKEditorControl">
+      <Item value="Text" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Boolean">
+      <Item value="Parse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.Members">
+      <Item value="GetByMemberID" priority="1" />
+      <Item value="Update" priority="1" />
+      <Item value="Insert" priority="0" />
+      <Item value="CheckLogin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.Page">
+      <Item value="Title" priority="0" />
+      <Item value="Header" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.NewsCategory">
+      <Item value="GetList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="ToString" priority="4" />
+      <Item value="Append" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.NewsInfo">
+      <Item value="Title" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Value" priority="1" />
+      <Item value="Selected" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Logger.Log">
+      <Item value="info" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.ProductCategory">
+      <Item value="GetByID" priority="1" />
+      <Item value="GetList" priority="0" />
+      <Item value="GetMaxParrentID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;BusinessObjects.ProductsInfo&gt;">
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Literal">
+      <Item value="Text" priority="16" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:double">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.ProductBrandInfo">
+      <Item value="BrandName" priority="0" />
+      <Item value="BrandID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.Help">
+      <Item value="GetListHelp" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string[]">
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Specialized.NameValueCollection">
+      <Item value="GetValues" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@">
+      <Item value="ProductID" priority="0" />
+      <Item value="License" priority="0" />
+      <Item value="Avatar" priority="0" />
+      <Item value="MemberID" priority="0" />
+      <Item value="IsPublish" priority="0" />
+      <Item value="PublishBy" priority="0" />
+      <Item value="PackageName" priority="0" />
+      <Item value="PublishDate" priority="0" />
+      <Item value="ShortDescription" priority="0" />
+      <Item value="CommentID" priority="0" />
+      <Item value="CommentDate" priority="0" />
+      <Item value="PackageID" priority="2" />
+      <Item value="CategoryID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.ProductCommentsInfo">
+      <Item value="CommentDate" priority="0" />
+      <Item value="CommentContent" priority="0" />
+      <Item value="MemberID" priority="0" />
+      <Item value="ProductID" priority="0" />
+      <Item value="IsPublish" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Focus" priority="0" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItemEventArgs">
+      <Item value="Item" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;BusinessObjects.ProductPackagesInfo&gt;">
+      <Item value="Add" priority="1" />
+      <Item value="Count" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.ProductCategoryInfo">
+      <Item value="CategoryName" priority="3" />
+      <Item value="CategoryID" priority="4" />
+      <Item value="ParentID" priority="2" />
+      <Item value="GroupID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.ProductComments">
+      <Item value="Insert" priority="0" />
+      <Item value="GetListProductCommentsPublished" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlMeta">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.ProductGroupInfo">
+      <Item value="GroupName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TreeView">
+      <Item value="Nodes" priority="2" />
+      <Item value="DataSource" priority="0" />
+      <Item value="DataBind" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.News">
+      <Item value="GetTopListPublished" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlHead">
+      <Item value="Attributes" priority="0" />
+      <Item value="InnerText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.UsersInfo">
+      <Item value="ID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse" priority="20" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.ProductsInfo">
+      <Item value="PromotionRate" priority="2" />
+      <Item value="DetailDescription" priority="1" />
+      <Item value="ShortDescription" priority="2" />
+      <Item value="IsPublish" priority="0" />
+      <Item value="SuppierID" priority="0" />
+      <Item value="Price" priority="3" />
+      <Item value="PublishedBy" priority="0" />
+      <Item value="Version" priority="1" />
+      <Item value="Tags" priority="4" />
+      <Item value="ProductID" priority="2" />
+      <Item value="TechDescription" priority="1" />
+      <Item value="PublishedDate" priority="0" />
+      <Item value="CreatedDate" priority="0" />
+      <Item value="CreatedBy" priority="0" />
+      <Item value="PackageID" priority="1" />
+      <Item value="Status" priority="0" />
+      <Item value="ReleaseDate" priority="1" />
+      <Item value="CategoryID" priority="3" />
+      <Item value="LinkDownload" priority="2" />
+      <Item value="IsHot" priority="1" />
+      <Item value="ProductName" priority="1" />
+      <Item value="Picture" priority="1" />
+      <Item value="IsNew" priority="1" />
+      <Item value="UpdateDate" priority="1" />
+      <Item value="IsBestSale" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.ProductGroup">
+      <Item value="GetList" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.NewsCategoryInfo">
+      <Item value="CategoryID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.ProductBrand">
+      <Item value="GetList" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlInputText">
+      <Item value="ClientID" priority="0" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:long">
+      <Item value="ToString" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBoxList">
+      <Item value="SelectedIndex" priority="0" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;BusinessObjects.ProductCategoryInfo&gt;">
+      <Item value="Add" priority="1" />
+      <Item value="Count" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TreeNode">
+      <Item value="ChildNodes" priority="3" />
+      <Item value="NavigateUrl" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SoftStore.App_Code.OnlineNow.Online">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.ProductSupplierInfo">
+      <Item value="SupplierName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Collections">
+      <Item value="Generic" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pyco.Web.UI.WebControls.Calendar">
+      <Item value="SelectedValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.ProductSubCategory">
+      <Item value="Update" priority="0" />
+      <Item value="Insert" priority="0" />
+      <Item value="GetList" priority="1" />
+      <Item value="GetByID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.ControlCollection">
+      <Item value="Add" priority="0" />
+      <Item value="AddAt" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;BusinessObjects.NewsInfo&gt;">
+      <Item value="Add" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlTableRow">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="ClientID" priority="0" />
+      <Item value="DataValueField" priority="0" />
+      <Item value="DataSource" priority="0" />
+      <Item value="DataTextField" priority="0" />
+      <Item value="DataBind" priority="0" />
+      <Item value="SelectedValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlImage">
+      <Item value="ClientID" priority="0" />
+      <Item value="Src" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DataAccessLayer.ProductPackages">
+      <Item value="Delete" priority="0" />
+      <Item value="Insert" priority="0" />
+      <Item value="GetByProductID" priority="1" />
+      <Item value="GetPackageByProductID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:int">
+      <Item value="ToString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="9" />
+      <Item value="Attributes" priority="1" />
+      <Item value="Enabled" priority="0" />
+      <Item value="ReadOnly" priority="0" />
+      <Item value="ClientID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.SessionState.HttpSessionState">
+      <Item value="Remove" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="RawUrl" priority="7" />
+      <Item value="Url" priority="1" />
+      <Item value="Params" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.PackageInfo">
+      <Item value="PackageName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ImageButton">
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RepeaterItem">
+      <Item value="FindControl" priority="0" />
+      <Item value="DataItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.MembersInfo">
+      <Item value="MemberID" priority="3" />
+      <Item value="Status" priority="1" />
+      <Item value="RegisteredDate" priority="0" />
+      <Item value="Avatar" priority="6" />
+      <Item value="Password" priority="1" />
+      <Item value="FullName" priority="4" />
+      <Item value="UserName" priority="2" />
+      <Item value="Mobile" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.OrderInfo">
+      <Item value="MemberID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.RequestSoftInfo">
+      <Item value="RequestDate" priority="0" />
+      <Item value="SoftTitle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SoftStore.controls.master_top_best_soft">
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TreeNodeCollection">
+      <Item value="Add" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RadioButton">
+      <Item value="Checked" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BusinessObjects.ProductPackagesInfo">
+      <Item value="PackageID" priority="1" />
+      <Item value="ProductID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:string">
+      <Item value="Trim" priority="1" />
+      <Item value="Split" priority="0" />
+      <Item value="IndexOf" priority="6" />
+      <Item value="ToLower" priority="0" />
+      <Item value="Length" priority="1" />
+      <Item value="Equals" priority="1" />
+      <Item value="Replace" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime.Now">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:object">
+      <Item value="ToString" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Repeater">
+      <Item value="DataSource" priority="2" />
+      <Item value="DataBind" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.AttributeCollection">
+      <Item value="Add" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List&lt;BusinessObjects.ProductCommentsInfo&gt;">
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlGenericControl">
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <EditorManager>
+    <RecentFiles>
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:App_Code/f:FormRewriter.cs" caret="990" scrollPosition="0|0" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:App_Browsers/f:form.browser" caret="475" scrollPosition="0|0" />
+      <File id="2254E474-7324-4AE6-9474-83F26914695B/f:ProductsInfo.cs" caret="265" scrollPosition="0|0" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:admin/d:controls/f:products.ascx" caret="15465" scrollPosition="0|186" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:App_Code/f:PageControls.cs" caret="2026" scrollPosition="0|20" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:product_detail.ascx" caret="5319" scrollPosition="0|84" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:product_detail.ascx.cs" caret="2463" scrollPosition="73|39" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:home.ascx.cs" caret="3215" scrollPosition="0|42" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:admin/d:controls/f:products.ascx.cs" caret="14278" scrollPosition="0|343" />
+      <File id="50B7856C-07B3-4CCA-A3B0-423713C68D2F/f:Products.cs" caret="33471" scrollPosition="0|682" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:tags.ascx" caret="2164" scrollPosition="10|27" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:tags.ascx.cs" caret="1555" scrollPosition="0|30" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:products.ascx.cs" caret="2139" scrollPosition="0|25" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:master_top_best_soft.ascx" caret="0" scrollPosition="0|0" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/f:Default.aspx.cs" caret="1176" scrollPosition="0|21" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:log/f:log.txt" caret="2793" scrollPosition="0|36" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:master_header.ascx.cs" caret="2585" scrollPosition="0|54" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:master_top_best_soft.ascx.cs" caret="261" scrollPosition="0|0" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:master_header.ascx" caret="2502" scrollPosition="0|0" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:master_index_bar.ascx" caret="123" scrollPosition="0|0" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:onl_statistics.ascx" caret="287" scrollPosition="0|0" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:master_supportonline.ascx" caret="381" scrollPosition="0|0" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:master_left_group.ascx" caret="359" scrollPosition="0|0" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:home.ascx" caret="1193" scrollPosition="0|27" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:products.ascx" caret="3620" scrollPosition="0|42" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:master_left_group.ascx.cs" caret="4446" scrollPosition="0|80" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:css/f:style.css" caret="19151" scrollPosition="0|1060" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/f:home.Master" caret="3257" scrollPosition="0|39" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/f:home.Master.cs" caret="799" scrollPosition="0|15" />
+      <File id="6D98FC2B-8701-4B71-9506-EF1A2495EBC2/d:controls/f:master_index_bar.ascx.cs" caret="3966" scrollPosition="0|63" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+  </ReFormatCode>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+</Configuration>

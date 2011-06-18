@@ -1,0 +1,96 @@
+
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 2px 0;
+	height: 34px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+	/*border: 1px solid #999;
+	border-left: none;*/
+	overflow: hidden;
+	position: relative;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #888787;
+	display: block;
+	font-size: 11px;
+	padding: 2px 20px;
+	font-weight:bold;
+	outline: none;
+}
+ul.tabs li a:hover {
+	background:url(/images/tab-active.png) center bottom no-repeat;
+	height:32px;
+	color:#00aae2;
+}
+ul.tabs li.active a{
+	background:url(/images/tab-active.png) center bottom no-repeat;
+	height:32px;
+	color:#00aae2;
+}
+
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	/*background:url(/images/tab-active.png) center top no-repeat;*/
+}
+.tab_container {
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; width: 100%;
+}
+.tab_content {
+	
+}
+.info {
+	border-bottom:1px solid #dbdcdd;
+	border-top:1px solid #dbdcdd;
+	height:25px;
+}
+ul.info-tabs {
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style: none;
+}
+ul.info-tabs li {
+	float: left;
+	margin: 0;
+	padding: 2px 0;
+	height: 25px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 26px; /*--Vertically aligns the text within the tab--*/
+	/*border: 1px solid #999;
+	border-left: none;*/
+	overflow: hidden;
+	position: relative;
+}
+ul.info-tabs li a {
+	text-decoration: none;
+	color: #888787;
+	display: block;
+	font-size: 10px;;
+	padding: 2px 20px;
+	font-weight:bold;
+	outline: none;
+	margin-top:-5px;
+}
+ul.info-tabs li a:hover {
+	background:url(/images/tab-active.png) center top no-repeat;
+	height:24px;
+	color:#00aae2;
+	background-color:#f5f4f4;
+}
+ul.info-tabs li.active a{
+	background:url(/images/tab-active.png) center top no-repeat;
+	height:24px;
+	color:#00aae2;
+	margin-top:-5px;
+	margin-top:-5px;
+	background-color:#f5f4f4;
+}

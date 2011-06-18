@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="620756995">
+  <Assembly Name="Log, Version=1.0.2063.20974, Culture=neutral" Cache="4944646a-f504-4b32-a32e-18a153494cb0.ReflectionCache" Timestamp="633470022420000000" />
+  <Assembly Name="CollectionPager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" Cache="1b1138d4-96b7-4ec6-8126-37b6e5ac1245.ReflectionCache" Timestamp="633469482420000000" />
+  <Assembly Name="FredCK.FCKeditorV2, Version=2.6.3.22452, Culture=neutral, PublicKeyToken=4f86767c9b519a06" Cache="45894695-cac3-4c58-a233-f4b864163590.ReflectionCache" Timestamp="633527096160000000" />
+  <Assembly Name="Pyco.Framework, Version=1.0.2102.31723, Culture=neutral, PublicKeyToken=null" Cache="0a4b5d18-b345-4ff4-9fb6-8e6276ac2289.ReflectionCache" Timestamp="632653064340000000" />
+  <Assembly Name="Pyco.Web, Version=1.0.2350.26473, Culture=neutral, PublicKeyToken=null" Cache="4a4547cf-fb53-4cd1-b529-f8ef17d867d3.ReflectionCache" Timestamp="633929549300000000" />
+  <Assembly Name="WebControlCaptcha, Version=2.3.3892.33579, Culture=neutral, PublicKeyToken=null" Cache="f2547c55-cacb-404c-9c99-98e3898a48f4.ReflectionCache" Timestamp="634186464020662631" />
+  <Assembly Name="Intelligencia.UrlRewriter, Version=2.0.0.6, Culture=neutral, PublicKeyToken=0573f3650687980d" Cache="b71da8f6-a2af-47a0-bdad-0b459f7d8b86.ReflectionCache" Timestamp="633628787240000000" />
+  <Assembly Name="WebControlCaptcha, Version=2.3.3892.33579, Culture=neutral" Cache="d3e338dd-e4f8-4558-b52d-cebf2c7cf310.ReflectionCache" Timestamp="634186464020662631" />
+  <Assembly Name="Pyco.Web, Version=1.0.2350.26473, Culture=neutral" Cache="a69f5c85-76ad-4e8f-b407-f3f904dd89b8.ReflectionCache" Timestamp="633929549300000000" />
+  <Assembly Name="CollectionPager, Version=0.0.0.0, Culture=neutral" Cache="32b237a0-c42c-42f4-a345-d17c0f36c80b.ReflectionCache" Timestamp="633469482420000000" />
+  <Assembly Name="CKEditor.NET, Version=3.5.2.0, Culture=neutral, PublicKeyToken=e379cdf2f8354999" Cache="64b341a0-c3ec-4082-aebe-197d3fc99c61.ReflectionCache" Timestamp="634351411720000000" />
+  <Assembly Name="AjaxControlToolkit, Version=1.0.20229.26670, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" Cache="4cd577fc-00e0-4d7a-b2f6-ba0b6cacc3ce.ReflectionCache" Timestamp="633526265440000000" />
+  <Assembly Name="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Cache="fc610bbb-b066-4f5a-bbda-a2ff0111e408.ReflectionCache" Timestamp="633014553660000000" />
+  <Assembly Name="System.Web.Extensions.Design, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Cache="887ef5b0-d0f5-4103-9258-0d1aabd3b28c.ReflectionCache" Timestamp="633014553660000000" />
+</Assemblies>

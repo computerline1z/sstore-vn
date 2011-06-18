@@ -1,0 +1,75 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2254E474-7324-4AE6-9474-83F26914695B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessObjects</RootNamespace>
+    <AssemblyName>BusinessObjects</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvProductsInfo.cs" />
+    <Compile Include="AdvsInfo.cs" />
+    <Compile Include="BrandsInfo.cs" />
+    <Compile Include="CartInfo.cs" />
+    <Compile Include="CompanyInfo.cs" />
+    <Compile Include="OnlineInfo.cs" />
+    <Compile Include="PackageInfo.cs" />
+    <Compile Include="ProductPackagesInfo.cs" />
+    <Compile Include="RequestSoftInfo.cs" />
+    <Compile Include="DownloadInfo.cs" />
+    <Compile Include="FeedbackInfo.cs" />
+    <Compile Include="IntroductionInfo.cs" />
+    <Compile Include="MembersInfo.cs" />
+    <Compile Include="NewsCategoryInfo.cs" />
+    <Compile Include="NewsInfo.cs" />
+    <Compile Include="OrderDetailInfo.cs" />
+    <Compile Include="OrderInfo.cs" />
+    <Compile Include="PaymentMethodsInfo.cs" />
+    <Compile Include="ProductCategoryInfo.cs" />
+    <Compile Include="ProductCommentsInfo.cs" />
+    <Compile Include="ProductSupplierInfo.cs" />
+    <Compile Include="ProductsInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceiveMethodsInfo.cs" />
+    <Compile Include="SalesPolicyInfo.cs" />
+    <Compile Include="SMTPMailInfo.cs" />
+    <Compile Include="SupportOnlineInfo.cs" />
+    <Compile Include="UserGroupInfo.cs" />
+    <Compile Include="UsersInfo.cs" />
+    <Compile Include="HelpInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

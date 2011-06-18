@@ -1,0 +1,11 @@
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\SoftStore\bin\SoftStore.dll
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\SoftStore\bin\SoftStore.pdb
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\SoftStore\bin\BusinessObjects.dll
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\SoftStore\bin\DataAccessLayer.dll
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\SoftStore\bin\Utilities.dll
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\SoftStore\bin\BusinessObjects.pdb
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\SoftStore\bin\DataAccessLayer.pdb
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\SoftStore\bin\Utilities.pdb
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\SoftStore\obj\Debug\ResolveAssemblyReference.cache
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\SoftStore\obj\Debug\SoftStore.dll
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\SoftStore\obj\Debug\SoftStore.pdb

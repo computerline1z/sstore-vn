@@ -1,0 +1,10 @@
+F:\net project\SoftStore\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+F:\net project\SoftStore\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+F:\net project\SoftStore\DataAccessLayer\bin\Debug\BusinessObjects.dll
+F:\net project\SoftStore\DataAccessLayer\bin\Debug\Log.dll
+F:\net project\SoftStore\DataAccessLayer\bin\Debug\Utilities.dll
+F:\net project\SoftStore\DataAccessLayer\bin\Debug\Utilities.pdb
+F:\net project\SoftStore\DataAccessLayer\bin\Debug\BusinessObjects.pdb
+F:\net project\SoftStore\DataAccessLayer\obj\Debug\ResolveAssemblyReference.cache
+F:\net project\SoftStore\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+F:\net project\SoftStore\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

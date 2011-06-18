@@ -1,0 +1,753 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D98FC2B-8701-4B71-9506-EF1A2495EBC2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoftStore</RootNamespace>
+    <AssemblyName>SoftStore</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.20229.26670, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
+    <Reference Include="CKEditor.NET, Version=3.5.2.0, Culture=neutral, PublicKeyToken=e379cdf2f8354999, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Demo\CKEditor\Bin\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="CollectionPager, Version=0.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SoftDownload\SoftDownload\bin\CollectionPager.dll</HintPath>
+    </Reference>
+    <Reference Include="Intelligencia.UrlRewriter, Version=2.0.0.6, Culture=neutral, PublicKeyToken=0573f3650687980d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\PNet\PNet\bin\Intelligencia.UrlRewriter.dll</HintPath>
+    </Reference>
+    <Reference Include="Log, Version=1.0.2063.20974, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SmsSJC\SmsSJC\bin\Log.dll</HintPath>
+    </Reference>
+    <Reference Include="Pyco.Web, Version=1.0.2350.26473, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SmsSJC\SmsSJC\bin\Pyco.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Extensions.Design, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="WebControlCaptcha, Version=2.3.3892.33579, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\PNet\PNet\bin\WebControlCaptcha.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\checkLogin.aspx" />
+    <Content Include="admin\controls\advproducts.ascx" />
+    <Content Include="admin\controls\advs.ascx" />
+    <Content Include="admin\controls\brands.ascx" />
+    <Content Include="admin\controls\company.ascx" />
+    <Content Include="admin\controls\contact.ascx" />
+    <Content Include="admin\controls\download.ascx" />
+    <Content Include="admin\controls\editprofile.ascx" />
+    <Content Include="admin\controls\home.ascx" />
+    <Content Include="admin\controls\introduction.ascx" />
+    <Content Include="admin\controls\members.ascx" />
+    <Content Include="admin\controls\menu.ascx" />
+    <Content Include="admin\controls\news.ascx" />
+    <Content Include="admin\controls\newscategory.ascx" />
+    <Content Include="admin\controls\orderslist.ascx" />
+    <Content Include="admin\controls\paymentmethods.ascx" />
+    <Content Include="admin\controls\productcategory.ascx" />
+    <Content Include="admin\controls\productsupplier.ascx" />
+    <Content Include="admin\controls\products.ascx" />
+    <Content Include="admin\controls\receivemethods.ascx" />
+    <Content Include="admin\controls\resetpass.ascx" />
+    <Content Include="admin\controls\roles.ascx" />
+    <Content Include="admin\controls\salespolicy.ascx" />
+    <Content Include="admin\controls\smtp.ascx" />
+    <Content Include="admin\controls\supportonline.ascx" />
+    <Content Include="admin\controls\usergroup.ascx" />
+    <Content Include="admin\controls\userlist.ascx" />
+    <Content Include="admin\controls\help.ascx" />
+    <Content Include="admin\default.aspx" />
+    <Content Include="admin\denied.aspx" />
+    <Content Include="admin\login.aspx" />
+    <Content Include="admin\styles\addnew.gif" />
+    <Content Include="admin\styles\back.gif" />
+    <Content Include="admin\styles\bgtitle.gif" />
+    <Content Include="admin\styles\bg_header.gif" />
+    <Content Include="admin\styles\cancel.gif" />
+    <Content Include="admin\styles\css\ddsmoothmenu.css" />
+    <Content Include="admin\styles\css\default.css" />
+    <Content Include="admin\styles\css\table.css" />
+    <Content Include="admin\styles\del.gif" />
+    <Content Include="admin\styles\down.gif" />
+    <Content Include="admin\styles\JSCalendar\calendar-blue.css" />
+    <Content Include="admin\styles\JSCalendar\calendar-blue2.css" />
+    <Content Include="admin\styles\JSCalendar\calendar-brown.css" />
+    <Content Include="admin\styles\JSCalendar\calendar-green.css" />
+    <Content Include="admin\styles\JSCalendar\calendar-setup.js" />
+    <Content Include="admin\styles\JSCalendar\calendar-setup_stripped.js" />
+    <Content Include="admin\styles\JSCalendar\calendar-system.css" />
+    <Content Include="admin\styles\JSCalendar\calendar-tas.css" />
+    <Content Include="admin\styles\JSCalendar\calendar-win2k-1.css" />
+    <Content Include="admin\styles\JSCalendar\calendar-win2k-2.css" />
+    <Content Include="admin\styles\JSCalendar\calendar-win2k-cold-1.css" />
+    <Content Include="admin\styles\JSCalendar\calendar-win2k-cold-2.css" />
+    <Content Include="admin\styles\JSCalendar\calendar.js" />
+    <Content Include="admin\styles\JSCalendar\calendar_stripped.js" />
+    <Content Include="admin\styles\JSCalendar\doc\html\field-button.jpg" />
+    <Content Include="admin\styles\JSCalendar\doc\html\reference-Z-S.css" />
+    <Content Include="admin\styles\JSCalendar\doc\html\reference.css" />
+    <Content Include="admin\styles\JSCalendar\doc\html\reference.html" />
+    <Content Include="admin\styles\JSCalendar\img.gif" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-af.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-al.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-bg.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-big5-utf8.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-big5.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-br.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-ca.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-cs-utf8.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-cs-win.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-da.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-de.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-du.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-el.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-en.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-es.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-fi.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-fr.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-he-utf8.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-hr-utf8.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-hr.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-hu.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-it.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-jp.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-ko-utf8.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-ko.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-lt-utf8.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-lt.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-lv.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-nl.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-no.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-pl-utf8.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-pl.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-pt.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-ro.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-ru.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-ru_win_.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-si.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-sk.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-sp.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-sv.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-tr.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-vi.js" />
+    <Content Include="admin\styles\JSCalendar\lang\calendar-zh.js" />
+    <Content Include="admin\styles\JSCalendar\lang\cn_utf8.js" />
+    <Content Include="admin\styles\JSCalendar\skin\aqua\active-bg.gif" />
+    <Content Include="admin\styles\JSCalendar\skin\aqua\dark-bg.gif" />
+    <Content Include="admin\styles\JSCalendar\skin\aqua\hover-bg.gif" />
+    <Content Include="admin\styles\JSCalendar\skin\aqua\menuarrow.gif" />
+    <Content Include="admin\styles\JSCalendar\skin\aqua\normal-bg.gif" />
+    <Content Include="admin\styles\JSCalendar\skin\aqua\rowhover-bg.gif" />
+    <Content Include="admin\styles\JSCalendar\skin\aqua\status-bg.gif" />
+    <Content Include="admin\styles\JSCalendar\skin\aqua\theme.css" />
+    <Content Include="admin\styles\JSCalendar\skin\aqua\title-bg.gif" />
+    <Content Include="admin\styles\JSCalendar\skin\aqua\today-bg.gif" />
+    <Content Include="admin\styles\login.gif" />
+    <Content Include="admin\styles\menu.gif" />
+    <Content Include="admin\styles\next.gif" />
+    <Content Include="admin\styles\published.gif" />
+    <Content Include="admin\styles\right.gif" />
+    <Content Include="admin\styles\script\ddsmoothmenu.js" />
+    <Content Include="admin\styles\script\jquery.min.js" />
+    <Content Include="admin\styles\script\table.js" />
+    <Content Include="admin\styles\search.gif" />
+    <Content Include="admin\styles\setbigsale.gif" />
+    <Content Include="admin\styles\sethot.gif" />
+    <Content Include="admin\styles\setnew.gif" />
+    <Content Include="admin\styles\submit.gif" />
+    <Content Include="admin\styles\tbp.gif" />
+    <Content Include="admin\styles\update.gif" />
+    <Content Include="css\style-cu.css" />
+    <Content Include="Global.asax" />
+    <Content Include="log\log.txt" />
+    <Content Include="resources\advproducts\flash_computer.swf" />
+    <Content Include="resources\logoadvs\qc1.jpg" />
+    <Content Include="resources\logoadvs\qc3.jpg" />
+    <Content Include="resources\logo\acer.jpg" />
+    <Content Include="resources\logo\apple.jpg" />
+    <Content Include="resources\logo\asus.jpg" />
+    <Content Include="resources\logo\axioo.jpg" />
+    <Content Include="resources\logo\benq.jpg" />
+    <Content Include="resources\logo\dell.jpg" />
+    <Content Include="resources\logo\fujitsu.jpg" />
+    <Content Include="resources\logo\gateway.jpg" />
+    <Content Include="resources\logo\hp.jpg" />
+    <Content Include="resources\logo\lenovo.jpg" />
+    <Content Include="resources\logo\msi.jpg" />
+    <Content Include="resources\logo\samsung.jpg" />
+    <Content Include="resources\logo\sony.jpg" />
+    <Content Include="resources\logo\toshiba.jpg" />
+    <Content Include="resources\logo\vaio.jpg" />
+    <Content Include="resources\logo\viewsonic.jpg" />
+    <Content Include="resources\map\map-pnet.jpg" />
+    <Content Include="resources\news\95.jpg" />
+    <Content Include="resources\news\fax_canon_b820.jpg" />
+    <Content Include="resources\products\ABCDE\sp2.jpg" />
+    <Content Include="resources\products\DellE6410\uir1253498306.jpg" />
+    <Content Include="resources\products\G460\gbq1295852793.jpg" />
+    <Content Include="resources\products\MAC001\macbook_pro_1_%2821922%29.jpg" />
+    <Content Include="resources\products\PC8500\DDRam-3-2GB-PC8500-1259665122.jpg" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\admin.Master.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\admin.Master.designer.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="admin\checkLogin.aspx.cs">
+      <DependentUpon>checkLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\checkLogin.aspx.designer.cs">
+      <DependentUpon>checkLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\advproducts.ascx.cs">
+      <DependentUpon>advproducts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\advproducts.ascx.designer.cs">
+      <DependentUpon>advproducts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\advs.ascx.cs">
+      <DependentUpon>advs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\advs.ascx.designer.cs">
+      <DependentUpon>advs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\brands.ascx.cs">
+      <DependentUpon>brands.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\brands.ascx.designer.cs">
+      <DependentUpon>brands.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\company.ascx.cs">
+      <DependentUpon>company.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\company.ascx.designer.cs">
+      <DependentUpon>company.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\contact.ascx.cs">
+      <DependentUpon>contact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\contact.ascx.designer.cs">
+      <DependentUpon>contact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\package.ascx.cs">
+      <DependentUpon>package.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\package.ascx.designer.cs">
+      <DependentUpon>package.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\download.ascx.cs">
+      <DependentUpon>download.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\download.ascx.designer.cs">
+      <DependentUpon>download.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\editprofile.ascx.cs">
+      <DependentUpon>editprofile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\editprofile.ascx.designer.cs">
+      <DependentUpon>editprofile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\home.ascx.cs">
+      <DependentUpon>home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\home.ascx.designer.cs">
+      <DependentUpon>home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\introduction.ascx.cs">
+      <DependentUpon>introduction.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\introduction.ascx.designer.cs">
+      <DependentUpon>introduction.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\members.ascx.cs">
+      <DependentUpon>members.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\members.ascx.designer.cs">
+      <DependentUpon>members.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\menu.ascx.cs">
+      <DependentUpon>menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\menu.ascx.designer.cs">
+      <DependentUpon>menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\news.ascx.cs">
+      <DependentUpon>news.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\news.ascx.designer.cs">
+      <DependentUpon>news.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\newscategory.ascx.cs">
+      <DependentUpon>newscategory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\newscategory.ascx.designer.cs">
+      <DependentUpon>newscategory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\orderslist.ascx.cs">
+      <DependentUpon>orderslist.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\orderslist.ascx.designer.cs">
+      <DependentUpon>orderslist.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\paymentmethods.ascx.cs">
+      <DependentUpon>paymentmethods.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\paymentmethods.ascx.designer.cs">
+      <DependentUpon>paymentmethods.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\productcategory.ascx.cs">
+      <DependentUpon>productcategory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\productcategory.ascx.designer.cs">
+      <DependentUpon>productcategory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\productsupplier.ascx.cs">
+      <DependentUpon>productsupplier.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\productsupplier.ascx.designer.cs">
+      <DependentUpon>productsupplier.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\products.ascx.cs">
+      <DependentUpon>products.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\products.ascx.designer.cs">
+      <DependentUpon>products.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\receivemethods.ascx.cs">
+      <DependentUpon>receivemethods.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\receivemethods.ascx.designer.cs">
+      <DependentUpon>receivemethods.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\resetpass.ascx.cs">
+      <DependentUpon>resetpass.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\resetpass.ascx.designer.cs">
+      <DependentUpon>resetpass.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\roles.ascx.cs">
+      <DependentUpon>roles.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\roles.ascx.designer.cs">
+      <DependentUpon>roles.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\salespolicy.ascx.cs">
+      <DependentUpon>salespolicy.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\salespolicy.ascx.designer.cs">
+      <DependentUpon>salespolicy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\smtp.ascx.cs">
+      <DependentUpon>smtp.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\smtp.ascx.designer.cs">
+      <DependentUpon>smtp.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\supportonline.ascx.cs">
+      <DependentUpon>supportonline.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\supportonline.ascx.designer.cs">
+      <DependentUpon>supportonline.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\usergroup.ascx.cs">
+      <DependentUpon>usergroup.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\usergroup.ascx.designer.cs">
+      <DependentUpon>usergroup.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\userlist.ascx.cs">
+      <DependentUpon>userlist.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\userlist.ascx.designer.cs">
+      <DependentUpon>userlist.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\controls\help.ascx.cs">
+      <DependentUpon>help.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\controls\help.ascx.designer.cs">
+      <DependentUpon>help.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\denied.aspx.cs">
+      <DependentUpon>denied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\denied.aspx.designer.cs">
+      <DependentUpon>denied.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\CheckMobile.cs" />
+    <Compile Include="App_Code\Configuration.cs" />
+    <Compile Include="App_Code\FormRewriter.cs" />
+    <Compile Include="App_Code\Jquery.cs" />
+    <Compile Include="App_Code\MemberLogin.cs" />
+    <Compile Include="App_Code\Notice.cs" />
+    <Compile Include="App_Code\PageControls.cs" />
+    <Compile Include="App_Code\SMS.cs" />
+    <Compile Include="App_Code\UserLogin.cs" />
+    <Compile Include="App_Code\WebMsgBox.cs" />
+    <Compile Include="controls\bussiness_package.ascx.cs">
+      <DependentUpon>bussiness_package.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\bussiness_package.ascx.designer.cs">
+      <DependentUpon>bussiness_package.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\change_password.ascx.cs">
+      <DependentUpon>change_password.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\change_password.ascx.designer.cs">
+      <DependentUpon>change_password.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\contact.ascx.cs">
+      <DependentUpon>contact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\contact.ascx.designer.cs">
+      <DependentUpon>contact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\edit_profile.ascx.cs">
+      <DependentUpon>edit_profile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\edit_profile.ascx.designer.cs">
+      <DependentUpon>edit_profile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\help.ascx.cs">
+      <DependentUpon>help.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\help.ascx.designer.cs">
+      <DependentUpon>help.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\home.ascx.cs">
+      <DependentUpon>home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\home.ascx.designer.cs">
+      <DependentUpon>home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\login.ascx.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\login.ascx.designer.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\master_footer.ascx.cs">
+      <DependentUpon>master_footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\master_footer.ascx.designer.cs">
+      <DependentUpon>master_footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\master_header.ascx.cs">
+      <DependentUpon>master_header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\master_header.ascx.designer.cs">
+      <DependentUpon>master_header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\master_index_bar.ascx.cs">
+      <DependentUpon>master_index_bar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\master_index_bar.ascx.designer.cs">
+      <DependentUpon>master_index_bar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\master_left_group.ascx.cs">
+      <DependentUpon>master_left_group.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\master_left_group.ascx.designer.cs">
+      <DependentUpon>master_left_group.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\master_supportonline.ascx.cs">
+      <DependentUpon>master_supportonline.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\master_supportonline.ascx.designer.cs">
+      <DependentUpon>master_supportonline.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\master_top_best_soft.ascx.cs">
+      <DependentUpon>master_top_best_soft.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\master_top_best_soft.ascx.designer.cs">
+      <DependentUpon>master_top_best_soft.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\news.ascx.cs">
+      <DependentUpon>news.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\news.ascx.designer.cs">
+      <DependentUpon>news.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\onl_statistics.ascx.cs">
+      <DependentUpon>onl_statistics.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\onl_statistics.ascx.designer.cs">
+      <DependentUpon>onl_statistics.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\paymentcart.ascx.cs">
+      <DependentUpon>paymentcart.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\paymentcart.ascx.designer.cs">
+      <DependentUpon>paymentcart.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\productcomments.ascx.cs">
+      <DependentUpon>productcomments.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\productcomments.ascx.designer.cs">
+      <DependentUpon>productcomments.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\products.ascx.cs">
+      <DependentUpon>products.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\products.ascx.designer.cs">
+      <DependentUpon>products.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\product_detail.ascx.cs">
+      <DependentUpon>product_detail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\product_detail.ascx.designer.cs">
+      <DependentUpon>product_detail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\product_promotion.ascx.cs">
+      <DependentUpon>product_promotion.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\product_promotion.ascx.designer.cs">
+      <DependentUpon>product_promotion.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\register.ascx.cs">
+      <DependentUpon>register.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\register.ascx.designer.cs">
+      <DependentUpon>register.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\request.ascx.cs">
+      <DependentUpon>request.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\request.ascx.designer.cs">
+      <DependentUpon>request.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\search_results.ascx.cs">
+      <DependentUpon>search_results.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\search_results.ascx.designer.cs">
+      <DependentUpon>search_results.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\shoppingcart.ascx.cs">
+      <DependentUpon>shoppingcart.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\shoppingcart.ascx.designer.cs">
+      <DependentUpon>shoppingcart.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\tags.ascx.cs">
+      <DependentUpon>tags.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\tags.ascx.designer.cs">
+      <DependentUpon>tags.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="home.Master.cs">
+      <DependentUpon>home.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.Master.designer.cs">
+      <DependentUpon>home.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\admin.Master" />
+    <None Include="admin\styles\JSCalendar\doc\reference.pdf" />
+    <Content Include="admin\controls\package.ascx" />
+    <Content Include="admin\styles\script\scw.js" />
+    <Content Include="App_Browsers\form.browser" />
+    <Content Include="controls\bussiness_package.ascx" />
+    <Content Include="controls\change_password.ascx" />
+    <Content Include="controls\contact.ascx" />
+    <Content Include="controls\edit_profile.ascx" />
+    <Content Include="controls\help.ascx" />
+    <Content Include="controls\home.ascx" />
+    <Content Include="controls\login.ascx" />
+    <Content Include="controls\master_footer.ascx" />
+    <Content Include="controls\master_header.ascx" />
+    <Content Include="controls\master_index_bar.ascx" />
+    <Content Include="controls\master_left_group.ascx" />
+    <Content Include="controls\master_supportonline.ascx" />
+    <Content Include="controls\master_top_best_soft.ascx" />
+    <Content Include="controls\news.ascx" />
+    <Content Include="controls\onl_statistics.ascx" />
+    <Content Include="controls\paymentcart.ascx" />
+    <Content Include="controls\productcomments.ascx" />
+    <Content Include="controls\products.ascx" />
+    <Content Include="controls\product_detail.ascx" />
+    <Content Include="controls\product_promotion.ascx" />
+    <Content Include="controls\register.ascx" />
+    <Content Include="controls\request.ascx" />
+    <Content Include="controls\search_results.ascx" />
+    <Content Include="controls\shoppingcart.ascx" />
+    <Content Include="controls\tags.ascx" />
+    <Content Include="css\rating.css" />
+    <Content Include="css\style-ie.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\tabs.css" />
+    <Content Include="default.aspx" />
+    <Content Include="home.Master" />
+    <Content Include="js\jquery-1.2.3.min.js" />
+    <Content Include="js\jquery-1.2.6.js" />
+    <Content Include="js\jquery-1.js" />
+    <Content Include="js\jquery-full-ui-1.5.2.min.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\paging.js" />
+    <None Include="resources\download\ThucHanhTuan4_New.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessObjects\BusinessObjects.csproj">
+      <Project>{2254E474-7324-4AE6-9474-83F26914695B}</Project>
+      <Name>BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{50B7856C-07B3-4CCA-A3B0-423713C68D2F}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{9DF6D9C5-07FD-4E58-AFD7-3E0EDDCF7B83}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50214</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
