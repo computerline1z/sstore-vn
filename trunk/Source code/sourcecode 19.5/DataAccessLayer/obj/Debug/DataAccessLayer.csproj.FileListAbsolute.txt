@@ -1,0 +1,9 @@
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\DataAccessLayer\bin\Debug\BusinessObjects.dll
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\DataAccessLayer\bin\Debug\Utilities.dll
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\DataAccessLayer\bin\Debug\BusinessObjects.pdb
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\DataAccessLayer\bin\Debug\Utilities.pdb
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\DataAccessLayer\obj\Debug\ResolveAssemblyReference.cache
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

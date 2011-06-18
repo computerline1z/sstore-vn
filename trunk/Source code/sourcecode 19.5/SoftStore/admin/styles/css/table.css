@@ -1,0 +1,27 @@
+
+TH.table-sortable 
+{
+   
+	
+}
+TH.table-sorted-asc 
+{
+    
+	BACKGROUND-POSITION: left; BACKGROUND-COLOR:#216699; BACKGROUND-REPEAT: repeat-x;
+}
+TH.table-sorted-desc {
+	BACKGROUND-POSITION: left; BACKGROUND-COLOR:#216699; BACKGROUND-REPEAT: repeat-x; 
+}
+
+
+TABLE.sort01 TH.table-sortable 
+{
+   
+}
+TABLE.sort01 TH.table-sorted-asc { 
+	BACKGROUND-IMAGE: url(../../images/06_ascending.gif);BACKGROUND-REPEAT: no-repeat; font-size:12px;
+}
+TABLE.sort01 TH.table-sorted-desc {
+	BACKGROUND-IMAGE: url(../../images/06_descending.gif);BACKGROUND-REPEAT: no-repeat; font-size:12px;
+}
+

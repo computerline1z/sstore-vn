@@ -1,0 +1,15 @@
+F:\net project\IMSPortal\Utilities\bin\Debug\Utilities.dll
+F:\net project\IMSPortal\Utilities\bin\Debug\Utilities.pdb
+F:\net project\IMSPortal\Utilities\obj\Debug\ResolveAssemblyReference.cache
+F:\net project\IMSPortal\Utilities\obj\Debug\Utilities.dll
+F:\net project\IMSPortal\Utilities\obj\Debug\Utilities.pdb
+F:\net project\PNet\Utilities\bin\Debug\Utilities.dll
+F:\net project\PNet\Utilities\bin\Debug\Utilities.pdb
+F:\net project\PNet\Utilities\obj\Debug\ResolveAssemblyReference.cache
+F:\net project\PNet\Utilities\obj\Debug\Utilities.dll
+F:\net project\PNet\Utilities\obj\Debug\Utilities.pdb
+F:\net project\SoftStore\Utilities\bin\Debug\Utilities.dll
+F:\net project\SoftStore\Utilities\bin\Debug\Utilities.pdb
+F:\net project\SoftStore\Utilities\obj\Debug\ResolveAssemblyReference.cache
+F:\net project\SoftStore\Utilities\obj\Debug\Utilities.dll
+F:\net project\SoftStore\Utilities\obj\Debug\Utilities.pdb

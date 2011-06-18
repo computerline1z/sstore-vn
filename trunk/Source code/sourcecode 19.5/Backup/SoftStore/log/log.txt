@@ -1,0 +1,59 @@
+2/11/2011 2:02:27 PM-ERROR:ProductsInfo UpdateStatus err: Incorrect syntax near ')'.
+
+2/11/2011 2:02:27 PM-ERROR:ProductsInfo UpdateStatus err: Incorrect syntax near ')'.
+
+2/11/2011 2:16:32 PM-ERROR:News Published err: Incorrect syntax near ')'.
+
+3/30/2011 5:20:32 PM-ERROR:ProductCategoryInfo getByID err: Failed to convert parameter value from a String to a Int32.
+
+3/30/2011 5:21:37 PM-ERROR:ProductCategoryInfo getByID err: Failed to convert parameter value from a String to a Int32.
+
+3/30/2011 5:21:41 PM-ERROR:ProductCategoryInfo getByID err: Failed to convert parameter value from a String to a Int32.
+
+4/12/2011 4:43:40 PM-ERROR:ProductsInfo Insert err: Invalid column name 'GroupID'.
+Invalid column name 'SubCategoryID'.
+
+4/12/2011 4:46:30 PM-ERROR:ProductsInfo Insert err: Must declare the scalar variable "@GroupID".
+
+4/12/2011 5:06:49 PM-ERROR:ProductSupplierInfo createObj err: Specified cast is not valid.
+
+4/12/2011 5:06:49 PM-ERROR:ProductSupplierInfo createObj err: Specified cast is not valid.
+
+4/12/2011 5:06:49 PM-ERROR:ProductSupplierInfo createObj err: Specified cast is not valid.
+
+4/12/2011 5:10:55 PM-ERROR:ProductSupplierInfo insert err: Failed to convert parameter value from a String to a Int32.
+
+4/13/2011 9:03:19 PM-ERROR:Products GetListProductsPublished err: Invalid column name 'ParentID'.
+
+4/13/2011 9:03:19 PM-ERROR:Products GetListProductsPublished err: Invalid column name 'ParentID'.
+
+4/13/2011 9:10:53 PM-ERROR:Products GetListProductsPublished err: Invalid column name 'ParentID'.
+
+4/13/2011 9:10:53 PM-ERROR:Products GetListProductsPublished err: Invalid column name 'ParentID'.
+
+4/15/2011 6:32:52 PM-INFORMATION:23
+
+4/26/2011 2:23:43 PM-ERROR:ProductsInfo Insert err: Incorrect syntax near ')'.
+
+4/26/2011 2:26:14 PM-ERROR:ProductsInfo UpdateAdmin err: Incorrect syntax near the keyword 'WHERE'.
+
+4/27/2011 11:33:32 AM-ERROR:List<ProductCategoryInfo> getList err: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+
+4/27/2011 11:36:10 AM-ERROR:Products GetListSearch err: Incorrect syntax near the keyword 'where'.
+
+5/2/2011 2:07:03 PM-ERROR:Products createObj err: Index was outside the bounds of the array.
+
+5/2/2011 2:07:03 PM-ERROR:Products createObj err: Index was outside the bounds of the array.
+
+5/2/2011 2:07:03 PM-ERROR:Products createObj err: Index was outside the bounds of the array.
+
+5/3/2011 5:32:20 PM-ERROR:ProductPackagesInfo createObj err: Index was outside the bounds of the array.
+
+5/3/2011 5:32:20 PM-ERROR:ProductPackagesInfo createObj err: Index was outside the bounds of the array.
+
+5/3/2011 5:32:20 PM-ERROR:ProductPackagesInfo createObj err: Index was outside the bounds of the array.
+
+5/16/2011 8:40:10 PM-INFORMATION:/default.aspx
+
+5/16/2011 8:40:48 PM-INFORMATION:/default.aspx
+

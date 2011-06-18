@@ -1,0 +1,5 @@
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\BusinessObjects\bin\Debug\BusinessObjects.dll
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\BusinessObjects\bin\Debug\BusinessObjects.pdb
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\BusinessObjects\obj\Debug\ResolveAssemblyReference.cache
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\BusinessObjects\obj\Debug\BusinessObjects.dll
+E:\projects\softstore\FPT\sourcecode 19.5\sourcecode 19.5\BusinessObjects\obj\Debug\BusinessObjects.pdb

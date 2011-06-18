@@ -1,0 +1,124 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+}
+a:link{
+	
+	font-size:12px;
+	color:#046BCD;
+	text-decoration:none;
+}
+
+a:visited{
+	
+	
+	color:#046BCD;
+	text-decoration:none;	
+}
+
+a:hover{
+	font-size:12px;
+	color:#d60a27;
+	text-decoration:underline;	
+}
+.bordergrid
+{
+    border: solid 1px #aaa;
+    border-collapse:collapse;
+    font-family:  Verdana,  Arial,Tahoma, Verdana;
+    font-size:12px;
+}
+.bordergrid td
+{
+    padding:1px;
+    border: solid 1px #dddcdc;
+    border-collapse:collapse;
+}
+.txt
+{
+    border: solid 1px #aaa;
+    font-family:Verdana,  Arial,Tahoma, Verdana;
+    font-size:12px;
+    height:17px;
+}
+.btn
+{
+    border: solid 1px #aaa;
+    font-family: Verdana, Arial,Tahoma, Verdana;
+    font-size:12px;
+    background-color:#004675;
+    color:#ffffff;
+    height:23px;
+    font-weight:bold;
+}
+.title
+{
+    color:#085389;
+    font-weight:bold;
+    font-size:13px;
+    text-align:left;
+    padding:10px 0px 5px 5px;
+    text-transform:uppercase;
+    border-bottom: solid 1px #6BA6D1;
+}
+.header
+{
+    padding: 0px 5px 0px 5px; 
+    font-weight:bold; 
+    font-size:12px;
+    background:url(../../styles/bg_header.gif); 
+    color:#ffffff;
+    text-align:center;
+    height:22px;
+}
+
+
+.banner
+{
+    background-color:#216699;
+    height:60px; 
+    color:#ffffff; 
+    padding: 5px;
+    /*border-bottom: solid 2px #1808AC;*/
+}
+.banner a.linkbanner
+{
+    color:#ffffff;
+}
+.banner a.linkbanner:hover
+{
+    color:#aaa;
+}
+.footer
+{
+    height:20px; font-size:12px;color:#ffffff;vertical-align:middle; padding: 5px;border-top: solid 2px #1808AC;text-align:center;
+    background:url(../../styles/bg_header.gif); 
+}
+
+.footer a.linkfooter
+{
+    color:#ffffff;
+}
+.footer a.linkfooter:hover
+{
+    color:#aaa;
+}
+
+
+.tableEdit td
+{
+    border-top:solid 1px #E9E9E9;
+}
+.bg_left
+{
+    background-color: #E0E0E0;
+    color:#044346;
+    text-align: right;
+}
+.bg_title
+{
+    padding: 5px;
+    background-color: #E0E0E0;
+    color:#044346;
+}
